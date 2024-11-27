@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Footer</title>
+</head>
+
+<body>
+    <!-- Task 7: Build a Footer with 3 Sections
+● Create a footer with:
+1. Left: Logo and company info.
+2. Center: Navigation links.
+3. Right: Social media icons.
+Utilities to Practice:
+● flex, justify-between, items-center, space-x-*, flex-col (for mobile).
+Challenge: Make the layout responsive:
+● Stack the sections on smaller screens. -->
+
+    <section>
+        <div class="bg-orange-600 p-10 flex justify-between items-center w-full absolute bottom-0">
+
+            <div class="">
+                <a href="#" class="font-bold md:text-[40px] text-[20px] ">Portfolio</a>
+            </div>
+            <div>
+                <nav class="text-[20px]">
+                    <ul class="list-none gap-4 md:flex  hidden ">
+                        <li>
+                            <a href="#" class=" hover:text-white hover:border-b-2 ">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class=" hover:text-white hover:border-b-2">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class=" hover:text-white hover:border-b-2">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#" class=" hover:text-white hover:border-b-2">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="text-[35px]">
+                <i class="fa-brands fa-square-facebook hover:translate-y-2 duration-1000"></i>
+                <i class="fa-brands fa-square-instagram hover:translate-y-2 duration-1000"></i>
+                <i class="fa-brands fa-square-x-twitter hover:translate-y-2 duration-1000"></i>
+                <i class="fa-brands fa-linkedin hover:translate-y-2 duration-1000"></i>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pricing Table</title>
+</head>
+
+<body>
+    <!-- Task 5: Create a Responsive Pricing Table
+    ● Design a pricing table with 3 plans side by side.
+    ○ Plan Name (Basic, Pro, Premium).
+    ○ Pricing (e.g., $10/mo).
+    ○ Features list.
+    ○ Call-to-action button.
+    Utilities to Use:
+    ● flex, flex-col, md:flex-row, justify-evenly, items-start.
+    Challenge: Highlight one of the plans using border, shadow-lg, or bg-* -->
+
+    <section>
+        <div class="bg-orange-500 font-bold text-[40px] text-center p-5">
+            <span class="hover:text-white duration-500">Pricing</span>
+        </div>
+
+        <div class="lg:flex lg:flex-row flex-col justify-center  gap-10 items-center  px-[40px] py-[40px] mt-4 ">
+            <div class="bg-black text-white py-[50px] px-[50px]  hover:translate-y-2 duration-1000 mb-4 flex flex-col ">
+                <h3 class="text-[25px] pb-3">HTML</h3>
+                <h4>Price : <span class="">&dollar;20</span></h4>
+                <div class="flex gap-5">
+                    <span>Features :</span>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                    </ul>
+                </div>
+
+                <button
+                    class="bg-orange-600 p-2 my-[20px] rounded-[10px] hover:bg-white hover:text-black duration-1000">
+                    Buy Now
+                </button>
+            </div>
+            <div class="bg-black text-white py-[50px] px-[50px]  hover:translate-y-2 duration-1000 mb-4 flex flex-col ">
+                <h3 class="text-[25px] pb-3">HTML</h3>
+                <h4>Price : <span class="">&dollar;20</span></h4>
+                <div class="flex gap-5">
+                    <span>Features :</span>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                    </ul>
+                </div>
+
+                <button
+                    class="bg-orange-600 p-2 my-[20px] rounded-[10px] hover:bg-white hover:text-black duration-1000">
+                    Buy Now
+                </button>
+            </div>
+            <div class="bg-black text-white py-[50px] px-[50px]  hover:translate-y-2 duration-1000 mb-4 flex flex-col ">
+                <h3 class="text-[25px] pb-3">HTML</h3>
+                <h4>Price : <span class="">&dollar;20</span></h4>
+                <div class="flex gap-5">
+                    <span>Features :</span>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                    </ul>
+                </div>
+
+                <button
+                    class="bg-orange-600 p-2 my-[20px] rounded-[10px] hover:bg-white hover:text-black duration-1000">
+                    Buy Now
+                </button>
+            </div>
+
+
+        </div>
+    </section>
+</body>
+
+</html>

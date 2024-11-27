@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Navbar</title>
+</head>
+
+<body>
+
+    <!-- Task 2: Build a Simple Navbar
+    ● Create a responsive navbar with the following layout:
+    1. Left: Logo.
+    2. Center: Navigation links (Home, About, Services, Contact).
+    3. Right: A button (Sign In).
+    Utilities to Practice:
+    ● flex, justify-between, items-center, space-x-*, px-*, py-* -->
+
+    <div
+        class="container-fluid bg-orange-600 p-5 flex justify-between md:items-center md:text-[20px] uppercase  -tracking-tighter font-poppins">
+        <a href="#" class="font-bold md:text-[30px] text-[20px]">Portfolio</a>
+        <nav class="">
+            <ul class="list-none gap-4 md:flex  hidden ">
+                <li>
+                    <a href="#" class=" hover:text-white hover:border-b-2 ">Home</a>
+                </li>
+                <li>
+                    <a href="#" class=" hover:text-white hover:border-b-2">About</a>
+                </li>
+                <li>
+                    <a href="#" class=" hover:text-white hover:border-b-2">Gallery</a>
+                </li>
+                <li>
+                    <a href="#" class=" hover:text-white hover:border-b-2">Blog</a>
+                </li>
+
+
+
+
+            </ul>
+        </nav>
+        <button class="bg-white p-2 rounded-[10px] hover:bg-black hover:text-white md:text-[20px] uppercase">Contact
+            us</button>
+    </div>
+</body>
+
+</html>

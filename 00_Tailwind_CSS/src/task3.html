@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Two Column Layout</title>
+</head>
+
+<body>
+
+    <!-- Task 3: Create a Two-Column Layout
+    ● Build a section with two columns:
+    1. Left column: A heading and a paragraph.
+    2. Right column: An image.
+    Challenge:
+    ● Make the layout responsive:
+    ○ Columns stack on smaller screens using flex-col for mobile (md:flex-row).
+    Utilities to Use:
+    ● flex, flex-col, md:flex-row, space-y-4, space-x-4 -->
+
+
+    <div class="md:flex  h-auto text-[20px] pt-[40px] lg:px-[40px] md:px-[30px]">
+        <div class="bg-white-500 flex flex-col justify-center px-[50px] basis-[50%]">
+            <h1 class="pb-[30px] text-[25px]">Hello, I am <b class="text-blue-950">KARAN.</b></h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus voluptatibus ipsa dicta odio minus,
+                natus ab officiis ducimus nostrum laborum exercitationem fugit laboriosam pariatur, consequatur deleniti
+                quas voluptates tenetur ut placeat architecto?
+        </div>
+        <div class="bg-white-500 flex basis-[50%] md:p-[50px] p-[40px] ">
+            <img src="../images/main.png" alt="" class="rounded-[20px] hover:translate-y-5 duration-1000">
+        </div>
+    </div>
+
+
+</body>
+
+</html>
